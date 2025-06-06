@@ -15,10 +15,10 @@ const CurrencyConverter = () => {
     JSON.parse(localStorage.getItem("favorites")) || ["INR", "EUR"]
   );
 
-  // Currencies -> https://api.frankfurter.app/currencies
+  
   const fetchCurrencies = async () => {
     try {
-      const res = await fetch("https://api.frankfurter.app/currencies");
+      const res = await fetch("https://api.frankfurter.app/currencies"); // Ce lien est remplacé par le endpoint  de l'API (Sprintboot+JPA+SQL) du groupe 10, qui gère l'affichage des devises.
       const data = await res.json();
       const supportedCurrencies = ["XAF", "XOF"];
       supportedCurrencies.forEach((currency) => {
@@ -64,7 +64,7 @@ const CurrencyConverter = () => {
     setConverting(true);
     try {
       const res = await fetch(
-        `https://api.frankfurter.app/latest?amount=${amount}&from=${fromCurrency}&to=${toCurrency}`
+        `https://api.frankfurter.app/latest?amount=${amount}&from=${fromCurrency}&to=${toCurrency}` // Ce lien est remplacé par le endpoint  de l'API (Sprintboot+JPA+SQL) du groupe 10, qui gère la conversion des devises.
       );
       const data = await res.json();
 
