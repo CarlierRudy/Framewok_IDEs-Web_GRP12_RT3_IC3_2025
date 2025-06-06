@@ -1,4 +1,4 @@
-# Currency Converter
+# Projet React.JS :Currency Converter
 
 Ce projet est une application de conversion de devises, conçue pour offrir une expérience utilisateur fluide et fiable lors de la conversion de montants entre différentes monnaies internationales. Grâce à l'intégration d'API de taux de change en temps réel, l'application garantit l'exactitude des conversions et la sécurité des transactions.
 
