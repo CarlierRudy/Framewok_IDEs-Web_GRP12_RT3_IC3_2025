@@ -3,7 +3,7 @@
 Ce dépôt contient l'interface utilisateur de l'application de conversion de dévise, développée en ReactJS.
 
 🔗 Ce front-end consomme l'API développée dans ce dépôt back-end :  
-👉 [Lien vers le dépôt back-end](https://github.com/Oznek-Oz/framework.cd-backend.groupe6)
+👉 [Lien vers le dépôt back-end](https://github.com/Oznek-Oz/framework.cd-backend.groupe10)
 
 Ce dépôt est structuré de manière à séparer clairement les différents projets réalisés dans le cadre du développement de l'application de conversion de devises. Vous trouverez ci-dessous une description détaillée de l'organisation des dossiers principaux :
 
