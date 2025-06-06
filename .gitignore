@@ -51,7 +51,8 @@ m4/lt~obsolete.m4
 # (which is called by configure script))
 Makefile
 
-# My own generated files
+# My own generated files | by RT3 Grp12
+#ReactJS files
 TP/node_modules/
 TP/dist/
 TP/.env
@@ -62,3 +63,61 @@ TP/*.tmp
 TP/*.bak
 TP/.DS_Store
 TP/Thumbs.db
+
+#Ruby on Rails files
+# === IGNORER CE QUI EST DANS mon_projet_rails/ ===
+# Logs
+TPE/log/*
+!TPE/log/.keep
+
+# Fichiers temporaires
+TPE/tmp/*
+!TPE/tmp/.keep
+
+# Fichiers SQLite
+TPE/db/*.sqlite3
+TPE/db/*.sqlite3-journal
+TPE/db/*.sqlite3-*
+
+# Clés sensibles
+TPE/config/master.key
+TPE/config/credentials.yml.enc
+
+# Assets compilés
+TPE/public/assets
+TPE/public/packs
+TPE/public/packs-test
+TPE/public/*.map
+TPE/public/*.gz
+
+# Dépendances JS
+TPE/node_modules
+TPE/yarn-error.log
+
+# Dépendances Ruby
+TPE/.bundle
+TPE/vendor/bundle
+
+# Historique de débogage
+TPE/.byebug_history
+
+# Fichiers d'environnement locaux
+TPE/.env
+TPE/.env.*
+TPE/.envrc
+
+# Fichiers système
+TPE/.DS_Store
+TPE/Thumbs.db
+
+# Test coverage
+TPE/coverage/
+TPE/spec/examples.txt
+
+# Fichiers de backup éditeurs
+TPE/*~
+TPE/*.bak
+
+# Caches divers
+TPE/.sass-cache/
+TPE/.cache/
