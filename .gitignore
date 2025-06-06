@@ -50,3 +50,15 @@ m4/lt~obsolete.m4
 # can automatically generate from config.status script
 # (which is called by configure script))
 Makefile
+
+# My own generated files
+TP/node_modules/
+TP/dist/
+TP/.env
+TP/.vscode/
+TP/.idea/
+TP/*.log
+TP/*.tmp
+TP/*.bak
+TP/.DS_Store
+TP/Thumbs.db
